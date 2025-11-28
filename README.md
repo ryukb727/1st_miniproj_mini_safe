@@ -5,14 +5,14 @@
 <br>
 
 ---
-## 🔀 시스템 전체 흐름도 (Flowchart)
+## 🔀 시스템 전체 흐름도
 <br>
 ![Image](https://raw.githubusercontent.com/ryukb727/1st_miniproj_mini_safe/refs/heads/main/images/mini_safe_flowchart.jpg)
 <br>
 
 ---
 
-## 💡 1. 프로젝트 개요 (Project Overview)
+## 💡 1. 프로젝트 개요
 STM32 Nucleo-F411RE 기반으로, 가변저항을 아날로그 다이얼로 활용하여 비밀번호를 입력하고,  
 PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시스템입니다.  
 비밀번호 입력부터 관리자 모드 전환, PW 변경까지 전 과정은 **FSM 기반 상태 제어 로직**으로 설계되어  
@@ -26,7 +26,7 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 
 ---
 
-## 🚀 주요 기능 (Key Features)
+## 🚀 2. 주요 기능
 - **아날로그 다이얼 입력(ADC)** → 0\~4095 값을 10구간으로 나눠 0\~9 숫자 생성  
 - **PWM 서보 제어** → 1500us(잠금), 2500us(해제)  
 - **TACT Switch + EXTI 인터럽트** → 입력 확정 및 모드 전환  
@@ -39,7 +39,7 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 
 ---
 
-## 🛠 개발 환경 및 기술 스택 (Tech Stack)
+## 🛠 3. 개발 환경 및 기술 스택
 ![STM32](https://img.shields.io/badge/MCU-STM32F411RE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![C](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![HAL](https://img.shields.io/badge/STM32-HAL%20Library-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
@@ -52,7 +52,7 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 
 ---
 
-## 🧩 시스템 구조 (System Architecture)
+## 🧩 4. 시스템 구조
 - **ADC** : 가변저 값 → 0\~9 숫자 변환  
 - **PWM** : 서보 모터 각도 제어로 잠금/해제 수  
 - **EXTI** : 버튼 입력 인터럽트 처리  
@@ -61,7 +61,7 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 
 ---
 
-## 📘 핵심 구현 (Core Implementation)
+## 📘 5. 핵심 구현
 
 ### ✔ FSM 기반 4단계 비밀번호 변경 인증 로직  
 비밀번호 변경 과정의 **보안성과 안정성**을 확보하기 위해 상태를 명확히 분리하여 구현
@@ -116,7 +116,7 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 ```
 ---
 
-## 🐞 트러블슈팅 (Troubleshooting)
+## 🐞 6. 트러블슈팅
 
 ### 1) **ADC 입력 노이즈로 숫자 튐**
 - 문제: 값 변동으로 숫자가 불안정  
@@ -135,7 +135,7 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 
 ---
 
-## 🙋‍♂️ 담당 역할 (My Contribution)
+## 🙋‍♂️ 7. 담당 역할
 - 아날로그 다이얼 기반 PW 입력 로직 전체 구현  
 - ADC → 숫자 매핑 / insert_num 배열 구조 설계  
 - 관리자 모드 포함 FSM 4단계 인증 시스템 개발  
@@ -143,7 +143,7 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 
 ---
 
-## 📄 프로젝트 결과 및 배운 점
+## 📄 8. 프로젝트 결과 및 배운 점
 - FSM 구조 설계를 통한 확장 가능 시스템 구축
 - ADC·PWM·EXTI·I2C 통합 제어 경험 강화
 - 하드웨어 노이즈·채터링 등 실제 임베디드 문제 해결 능력 확보  
