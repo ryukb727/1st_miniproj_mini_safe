@@ -11,9 +11,8 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 ---
 ## 🔀 시스템 전체 흐름도 (Flowchart)
 <br>
-![mini_safe_flowchart](https://github.com/ryukb727/1st_miniproj_mini_safe/blob/main/images/mini_safe_flowchart.jpg)
+![Image](https://github.com/user-attachments/assets/a1bce354-68d3-4023-a307-11da2f3153bf)
 <br>
-
 ---
 
 ## 🚀 주요 기능 (Key Features)
