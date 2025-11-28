@@ -68,6 +68,7 @@ if (now - last_press_time_tact1 > 200) {   // 200ms 디바운스
     handle_tact1();
     last_press_time_tact1 = now;
 }
+```
 
 ---
 ### ✔ 아날로그 다이얼 입력 → 숫자 변환 (ADC 안정화)
@@ -84,7 +85,7 @@ else if (val < 500) adc_val = 1;
 // ...
 else if (val < 4000) adc_val = 8;
 else                 adc_val = 9;
-
+```
 ---
 
 ### ✔ PWM 기반 잠금/해제 제어
@@ -98,7 +99,7 @@ Timer 기반 PWM 신호로 서보 모터의 각도 정밀 제어
 ```c
 __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 1500);  // Lock
 __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
-
+```
 ---
 
 ## 🐞 트러블슈팅 (Troubleshooting)
