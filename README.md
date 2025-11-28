@@ -3,16 +3,25 @@
 <br>
 ![Image](https://github.com/user-attachments/assets/de59dc97-d225-4cbf-b465-c10919eefa60)
 <br>
+
+---
+## 🔀 시스템 전체 흐름도 (Flowchart)
+<br>
+![Image](https://raw.githubusercontent.com/ryukb727/1st_miniproj_mini_safe/refs/heads/main/images/mini_safe_flowchart.jpg)
+<br>
+---
+
+## 💡 1. 프로젝트 개요 (Project Overview)
 STM32 Nucleo-F411RE 기반으로, 가변저항을 아날로그 다이얼로 활용하여 비밀번호를 입력하고,  
 PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시스템입니다.  
 비밀번호 입력부터 관리자 모드 전환, PW 변경까지 전 과정은 **FSM 기반 상태 제어 로직**으로 설계되어  
 안정성, 보안성, 유지보수성을 모두 강화한 구조를 확보했습니다.
 
----
-<br>
-![Image](https://raw.githubusercontent.com/ryukb727/1st_miniproj_mini_safe/refs/heads/main/images/mini_safe_flowchart.jpg)
-<br>
----
+📍 핵심 목표
+- 아날로그 입력(ADC) 기반 금고 비밀번호 입력 시스템 구현
+- PWM 서보 모터를 이용한 잠금/해제 메커니즘 제어
+- 관리자 모드 도입으로 보안 기능 확장
+- FSM 기반 상태 전환 구조로 시스템 안정성 확보
 
 ## 🚀 주요 기능 (Key Features)
 - **아날로그 다이얼 입력(ADC)** → 0\~4095 값을 10구간으로 나눠 0\~9 숫자 생성  
@@ -27,7 +36,7 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 
 ---
 
-## 🛠 기술 스택 (Tech Stack)
+## 🛠 개발 환경 및 기술 스택 (Tech Stack)
 | Category | Details |
 |---------|---------|
 | MCU | STM32 Nucleo-F411RE |
@@ -138,3 +147,5 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 - HW/SW 통합 디버깅 능력 향상  
 
 ---
+#### 프로젝트 노션 URL
+https://www.notion.so/hiawath/7-242c59623e6180f1a17bd6faf05222ce
