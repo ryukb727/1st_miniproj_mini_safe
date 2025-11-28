@@ -49,6 +49,16 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 | Interaction | TACT Switch × 2 (EXTI 인터럽트) |
 | Architecture | FSM 기반 일반·관리자 상태 관리 |
 
+![STM32](https://img.shields.io/badge/MCU-STM32F411RE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![C](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![HAL](https://img.shields.io/badge/STM32-HAL%20Library-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![ADC](https://img.shields.io/badge/Input-ADC%20(Potentiometer)-A2C93A?style=for-the-badge)
+![PWM](https://img.shields.io/badge/Output-PWM%20Servo%20Motor-FFB400?style=for-the-badge)
+![LCD](https://img.shields.io/badge/I2C-16x2%20LCD-1E90FF?style=for-the-badge)
+![TACT](https://img.shields.io/badge/Interaction-TACT%20Switch%20×%202-555555?style=for-the-badge)
+![EXTI](https://img.shields.io/badge/Interrupt-EXTI%20(External%20Interrupt)-8A2BE2?style=for-the-badge)
+![FSM](https://img.shields.io/badge/Architecture-FSM%20(State%20Machine)-4CAF50?style=for-the-badge)
+
 ---
 
 ## 🧩 시스템 구조 (System Architecture)
