@@ -1,3 +1,14 @@
+| [Korean 🇰🇷](#korean) | [Japanese 🇯🇵](#japanese) |
+| :---: | :---: |
+
+</div>
+
+---
+
+<div id="korean">
+
+### 🇰🇷 Korean Version
+
 # 🔐 STM32 기반 아날로그 다이얼 금고 시스템  
 **Analog Dial Safe System using STM32 Nucleo-F411RE**
 <br>
@@ -152,3 +163,15 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 ---
 #### 프로젝트 노션 URL
 https://www.notion.so/hiawath/7-242c59623e6180f1a17bd6faf05222ce
+
+<div align="center">
+<a href="#japanese">⬇️ 日本語バージョンへ移動 (Go to Japanese Version) ⬇️</a>
+</div>
+
+</div>
+
+---
+
+<div id="japanese">
+
+### 🇯🇵 Japanese Version
