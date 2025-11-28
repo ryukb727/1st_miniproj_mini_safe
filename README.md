@@ -9,7 +9,6 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 안정성, 보안성, 유지보수성을 모두 강화한 구조를 확보했습니다.
 
 ---
-## 🔀 시스템 전체 흐름도 (Flowchart)
 <br>
 ![Image](https://raw.githubusercontent.com/ryukb727/1st_miniproj_mini_safe/refs/heads/main/images/mini_safe_flowchart.jpg)
 <br>
