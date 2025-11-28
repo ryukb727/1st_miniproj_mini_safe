@@ -155,8 +155,10 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 - HW/SW 통합 디버깅 능력 향상  
 
 ---
-#### 프로젝트 노션 URL
+#### 📖 프로젝트 노션 URL
 https://www.notion.so/hiawath/7-242c59623e6180f1a17bd6faf05222ce
+
+---
 
 <div align="center">
 <a href="#japanese">⬇️ 日本語バージョンへ移動 (Go to Japanese Version) ⬇️</a>
@@ -325,11 +327,15 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 
 ---
 
-## プロジェクト Notion URL
+## 📖 プロジェクト Notion URL
 [プロジェクト Notion](https://www.notion.so/hiawath/7-242c59623e6180f1a17bd6faf05222ce)
+
+---
 
 <div align="center">
 <a href="#korean">⬆️ 韓国語バージョン으로 돌아가기 (Go back to Korean Version) ⬆️</a>
 </div>
 
 </div>
+
+---
