@@ -1,12 +1,16 @@
 # 🔐 STM32 기반 아날로그 다이얼 금고 시스템  
 **Analog Dial Safe System using STM32 Nucleo-F411RE**
-
+![Image](https://github.com/user-attachments/assets/de59dc97-d225-4cbf-b465-c10919eefa60)
 STM32 Nucleo-F411RE 기반으로, 가변저항을 아날로그 다이얼로 활용하여 비밀번호를 입력하고,  
 PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시스템입니다.  
 비밀번호 입력부터 관리자 모드 전환, PW 변경까지 전 과정은 **FSM 기반 상태 제어 로직**으로 설계되어  
 안정성, 보안성, 유지보수성을 모두 강화한 구조를 확보했습니다.
 
 ---
+## 🔀 시스템 전체 흐름도 (Flowchart)
+<p align="center">
+  ![Image](https://github.com/user-attachments/assets/f317037b-e83d-48f4-874d-cbec18cfb901)
+</p>
 
 ## 🚀 주요 기능 (Key Features)
 - **아날로그 다이얼 입력(ADC)** → 0\~4095 값을 10구간으로 나눠 0\~9 숫자 생성  
