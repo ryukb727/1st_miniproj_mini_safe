@@ -39,16 +39,6 @@ PWM 서보 모터로 물리적 잠금/해제를 수행하는 전자 금고 시�
 ---
 
 ## 🛠 개발 환경 및 기술 스택 (Tech Stack)
-| Category | Details |
-|---------|---------|
-| MCU | STM32 Nucleo-F411RE |
-| Language | C (STM32 HAL) |
-| Input | Potentiometer (ADC) |
-| Output | Servo Motor (PWM) |
-| UI | 16x2 I2C LCD |
-| Interaction | TACT Switch × 2 (EXTI 인터럽트) |
-| Architecture | FSM 기반 일반·관리자 상태 관리 |
-
 ![STM32](https://img.shields.io/badge/MCU-STM32F411RE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![C](https://img.shields.io/badge/Language-C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![HAL](https://img.shields.io/badge/STM32-HAL%20Library-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
