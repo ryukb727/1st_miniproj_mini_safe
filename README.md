@@ -288,7 +288,6 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 1500);  // Lock
 __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 2500);  // Unlock
 ```
 ---
----
 
 ## 🐞 6. トラブルシューティング
 
