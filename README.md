@@ -255,7 +255,7 @@ EXTI(外部割り込み)発生時、200ms以内の重複入力はすべて無視
 実装箇所: HAL_GPIO_EXTI_Callback()
 
 ```c
-if (now - last_press_time_tact1 > 200) {   // 200ms 디바운스
+if (now - last_press_time_tact1 > 200) {   // 200ms デバウンス
     handle_tact1();
     last_press_time_tact1 = now;
 }
