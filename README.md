@@ -14,7 +14,7 @@
 <br>
 ![Image](https://github.com/user-attachments/assets/de59dc97-d225-4cbf-b465-c10919eefa60)
 <br>
-![Image](https://raw.githubusercontent.com/ryukb727/1st_miniproj_mini_safe/refs/heads/main/images/mini_safe_flowchart.jpg)
+<img width="3095" height="8324" alt="Untitled diagram-2026-01-07-055930" src="https://github.com/user-attachments/assets/fde8cc9b-059f-48d6-8302-1d36cfd38b39" />
 <br>
 
 ---
@@ -178,7 +178,7 @@ Analog Dial Safe System using STM32 Nucleo-F411RE
 <br>
 ![Image](https://github.com/user-attachments/assets/de59dc97-d225-4cbf-b465-c10919eefa60)
 <br>
-![Image](https://raw.githubusercontent.com/ryukb727/1st_miniproj_mini_safe/refs/heads/main/images/mini_safe_flowchart.jpg)
+<img width="3109" height="8551" alt="Untitled diagram-2026-01-07-055734" src="https://github.com/user-attachments/assets/5bc0aed0-9432-4969-ae20-cbb7be008142" />
 <br>
 
 
