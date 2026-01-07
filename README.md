@@ -14,7 +14,7 @@
 <br>
 ![Image](https://github.com/user-attachments/assets/de59dc97-d225-4cbf-b465-c10919eefa60)
 <br>
-<img width="3095" height="8324" alt="Untitled diagram-2026-01-07-055930" src="https://github.com/user-attachments/assets/fde8cc9b-059f-48d6-8302-1d36cfd38b39" />
+<img width="13278" height="2104" alt="image" src="https://github.com/user-attachments/assets/0ec7e06c-c9fc-4c12-8341-ebf96085f392" />
 <br>
 
 ---
@@ -178,7 +178,7 @@ Analog Dial Safe System using STM32 Nucleo-F411RE
 <br>
 ![Image](https://github.com/user-attachments/assets/de59dc97-d225-4cbf-b465-c10919eefa60)
 <br>
-<img width="3109" height="8551" alt="Untitled diagram-2026-01-07-055734" src="https://github.com/user-attachments/assets/5bc0aed0-9432-4969-ae20-cbb7be008142" />
+<img width="14612" height="2365" alt="Untitled diagram-2026-01-07-060052" src="https://github.com/user-attachments/assets/c07dd6cd-f35d-46c5-b22f-77646b98b9f6" />
 <br>
 
 
